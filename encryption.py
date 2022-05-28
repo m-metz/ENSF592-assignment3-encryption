@@ -11,17 +11,23 @@ import sys
 from text_codec.command_line_interface import CommandLineInterface
 
 def main():
+    """Runs the ENSF 592 encryption command line interface program.
+
+    It can encode and decode text given a cipher that maps to 26 lowercase english letters.
+    """
+    
     print("")
     print("ENSF 592 Encryption Program")
     print("Use Ctrl+C to quit.")
     print("")
 
-    cli = CommandLineInterface()
     try:
-        cli.prompt_for_encode_decode_mode()
-        cli.prompt_for_cipher()
-        cli.prompt_for_text_to_encode_decode()
-        cli.encode_decode_text()
+        cli = CommandLineInterface()
+        mapping_cipher = cli.prompt_for_cipher_text()
+        decoded_or_encoded_text = cli.prompt_for_text_to_encode_decode()
+        encoded_or_decoded_text = mapping_cipher.encode_decode_text(decoded_or_encoded_text)
+        cli.display_encoded_or_decoded_text(encoded_or_decoded_text)
+
     except KeyboardInterrupt:
         sys.exit()
 
