@@ -1,3 +1,5 @@
+# Ciphers
+
 # 26 non-unique characters
 zzxwvutsrqponmlkjihgfed123
 
@@ -14,7 +16,17 @@ zyxwvutsrqponmlkjihgfed12.
 zyxwvutsrqponmlkjihgfed1 23
 
 # 26 unique characters with invalid D
+zyxwvutsrqponmlkjihgfeD123
+
+# 26 unique characters
 zyxwvutsrqponmlkjihgfed123
 
-# 25 unique characters
-zyxwvutsrqponmlkjihgfed123
+
+# Text to encode
+
+My Reese's puffs inspired this rhyme That peanut butter chocolate combination's on time
+
+
+# Text to decode
+
+n2ivvhvhkfuuhrmhkrivwgsrhis2nvgszgkvzmfgyfggvixslxlozgvxlnyrmzgrlmhlmgrnv

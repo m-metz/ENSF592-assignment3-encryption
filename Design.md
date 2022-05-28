@@ -7,6 +7,7 @@
     b) MappingCipher
     c) DecodedText
     d) EncodedText
+    e) EncryptionApp
 
 ## Assigning Classes to Roles
 
@@ -31,15 +32,19 @@ d)
     * No specification in lab
     * Implied requirements
         * Should contain all cipher characters
-        * For the best user experience, fail if not in the valid cipher text set or get the cipher first and validate against that.
+        * For the best user experience, fail if not in the entire possible valid cipher text set, or get the cipher first and validate all characters in the cipher are in the encoded text.
+        * To keep things simple I will just validate that the encoded text is lowercase alphanumeric and prompt the user to enter text that contains cipher characters.
 
 b)
 * Encode Decode Text
     * Decode the DecodedText
     * Encode the DecodedText
 
+## Derived Roles
+b)
+* Manage the apps decode/encode mode
 
-Other requirements:
+# Other requirements:
 
 * At least 2 classes, and 3 user-defined functions (other than __init__() and main().
 * At least 1 used iterable object.
