@@ -30,3 +30,22 @@ My Reese's puffs inspired this rhyme That peanut butter chocolate combination's 
 # Text to decode
 
 n2ivvhvhkfuuhrmhkrivwgsrhis2nvgszgkvzmfgyfggvixslxlozgvxlnyrmzgrlmhlmgrnv
+
+
+# Test Data from Readme
+
+Text to be encoded: abcde
+Cipher: bcdefghijklmnopqrstuvwxyza
+Code result: bcdef
+
+Text to be decoded: abcde
+Cipher: bcdefghijklmnopqrstuvwxyza
+Code result: zabcd
+
+Text to be encoded: Tell me and I forget. Teach me and I remember. Involve me and I learn. - Benjamin Franklin
+Cipher: bcdefghijklmnopqrstuvwxyza
+Code result: ufmmnfboejgpshfuufbdinfboejsfnfncfsjowpmwfnfboejmfbsocfokbnjogsbolmjo
+
+Text to be decoded: uifcftuboenptucfbvujgvmuijohtjouifxpsmedboopucftffopsfwfoupvdifeuifznvtucfgfmuxjuiuififbsuifmfolfmmfs
+Cipher: bcdefghijklmnopqrstuvwxyza
+Code result: thebestandmostbeautifulthingsintheworldcannotbeseenoreventouchedtheymustbefeltwiththehearthelenkeller

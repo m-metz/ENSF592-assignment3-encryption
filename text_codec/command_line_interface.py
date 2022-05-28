@@ -77,14 +77,14 @@ class CommandLineInterface:
         encode_decode_string = ""
 
         if self.__mapping_cipher.encode_decode_mode == EncodeDecodeMode.ENCODE:
-            encode_decode_string = EncodeDecodeMode.ENCODE.value + "d"
+            encode_decode_string = EncodeDecodeMode.ENCODE.value
         elif self.__mapping_cipher.encode_decode_mode == EncodeDecodeMode.DECODE:
-            encode_decode_string = EncodeDecodeMode.DECODE.value + "d"
+            encode_decode_string = EncodeDecodeMode.DECODE.value
         else:
             self.__mapping_cipher_not_set()
 
-        input_text = input("Enter the cipher text to be "
-            + encode_decode_string + " (" + CIPHER_CRITERIA_STRING + "): ")
+        input_text = input("Enter the cipher text to "
+            + encode_decode_string + " with (" + CIPHER_CRITERIA_STRING + "): ")
 
         while True:
             try:
